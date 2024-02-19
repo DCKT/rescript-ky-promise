@@ -1,5 +1,5 @@
 {
-  "name": "@dck/rescript-<module>",
+  "name": "@dck/rescript-ky-promise",
   "uncurried": true,
   "namespace": false,
   "sources": [
@@ -14,6 +14,7 @@
     }
   ],
   "suffix": ".mjs",
+  "bs-dependencies": ["@dck/rescript-promise"],
   "bs-dev-dependencies": ["@rescript/core", "rescript-bun"],
   "package-specs": [
     {

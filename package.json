@@ -1,10 +1,14 @@
 {
-  "name": "@dck/rescript-<module>",
+  "name": "@dck/rescript-ky-promise",
   "version": "0.0.0",
-  "description": "ReScript bindings for <module>",
+  "description": "ReScript bindings for ky HTTP client with rescript-promise",
+  "type": "module",
   "keywords": [
     "rescript",
-    "bindings"
+    "bindings",
+    "ky",
+    "http",
+    "rescript-promise"
   ],
   "license": "MIT",
   "author": {
@@ -13,10 +17,12 @@
     "url": "https://github.com/DCKT"
   },
   "peerDependencies": {
-    "rescript": ">=11.0.0"
+    "rescript": ">=11.0.0",
+    "ky": "~1.2.0"
   },
   "devDependencies": {
     "@rescript/core": "^1.0.0",
+    "ky": "1.2.0",
     "rescript": ">=11.0.0",
     "rescript-bun": "^0.4.1"
   },
@@ -31,5 +37,8 @@
   ],
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@dck/rescript-promise": "~1.1.0"
   }
 }
